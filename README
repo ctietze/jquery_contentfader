@@ -1,0 +1,20 @@
+== contentfader is a simple jQuery plugin to provide a fade in and out for list items.
+It convertes a flat <ul> list into multiple child lists with a specified number of elements and provides a simple (cross)fade on the converted and grouped lists
+
+Features
+* Crossfade or fade in / out
+* random display
+* pause on mouseover
+
+= Example call
+jQuery.noConflict();
+jQuery(document).ready(function(){
+	jQuery("#contentfader").contentfader({
+		easing: 'linear'
+	});
+});
+
+= License
+Dual licensed under the MIT and GPL licenses:
+http://www.opensource.org/licenses/mit-license.php
+http://www.gnu.org/licenses/gpl.html

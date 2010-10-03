@@ -1,0 +1,13 @@
+/** required contentfader styles **/
+#wrapper_contentfader {overflow: hidden;}
+#contentfader {position:relative; width:100%;}
+#contentfader li {display: block; list-style: none; float: left;}
+
+/** add custom styles here */
+body{font-size:12px;font-family: Verdana, Arial, Helvetica, sans-serif;background: #dddddd center top;}
+body, ul, h1{margin:0;padding:0;}
+h1{font-size:16px;}
+
+#wrapper_contentfader{margin:0 auto;padding:0 0 20px 20px;background-color:#FFF;width:960px;}
+#contentfader {height: 150px;}
+#contentfader li {margin: 0;padding: 0; height: 140px;}

@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- stylesheets -->
+	<title>jQuery Plugin - contentfader Demo</title>
+	<link rel="stylesheet" href="jquery_contentfader-1.0.css" type="text/css" media="screen" />
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.0'></script>
+	<script type='text/javascript' src='jquery_contentfader-1.0.js'></script>
+	<script type="text/javascript">
+jQuery.noConflict();
+jQuery(document).ready(function(){
+	jQuery("#contentfader").contentfader({
+		easing: 'linear'
+	});
+});
+	</script>
+</head>
+<body>
+<div id="wrapper_contentfader">
+	<div><h1>jQuery Plugin - contentfader Demo</h1></div>
+	<p>Demo of the <em>jQuery Plugin - contentfader</em>.</p>
+	<p>The plugin is executed with the default parameters<br>
+	<pre>
+$.fn.contentfader.defaults = {
+    items: 3 // max items to show
+   ,itemWidth: 320
+   ,crossfade: true // true | false
+   ,easing: 'swing' // swing | linear
+   ,speed: 3000 // in milliseconds
+   ,interval: 8000 // in milliseconds
+ }
+	</pre>
+	</p>
+	<p>For more information, please visit the project page 
+	<a href="http://www.kopfpit.de/wordpress/goodies/jquery-plugin-contentfader/" target="_blank">jQuery Plugin - contentfader</a></br></p>
+	<ul id="contentfader">
+		<li >
+			<div>
+				<h2>Sed posuere cursus ante, </h2>
+				<div>at sodales arcu pretium id. Aliquam id neque diam, nec adipiscing mauris.</div>
+				<p>Phasellus scelerisque erat et dolor hendrerit eget suscipit dolor pulvinar.</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Proin interdum felis eget libero pulvinar fermentum.</h2>
+				<div>Etiam leo diam, aliquam nec vulputate sit amet,</div>
+				<p> imperdiet vel dolor. Sed euismod iaculis odio vitae adipiscing.</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Quisque tincidunt mollis elit sit amet aliquam.</h2>
+				<div>Praesent ligula mi, rhoncus hendrerit convallis sit amet, </div>
+				<p> suscipit in turpis. </p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Proin sit amet tortor diam;</h2>
+				<div>id fringilla dui.</div>
+				<p>Maecenas malesuada, elit nec hendrerit fringilla</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Proin bibendum quam sit amet eros luctus condimentum!</h2>
+				<div>Fusce vitae lectus felis.</div>
+				<p>Vivamus porta scelerisque nulla, quis placerat orci fermentum sed!</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Nulla id urna eget orci volutpat congue?</h2>
+				<div>Sed euismod iaculis odio vitae adipiscing.</div>
+				<p> Proin interdum felis eget libero pulvinar fermentum.</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Vestibulum molestie urna nec sapien accumsan rhoncus.</h2>
+				<div>Donec a eros mauris. Aliquam arcu nibh,</div>
+				<p> ullamcorper vel rutrum et; suscipit id nibh!</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Maecenas quam nisl,</h2>
+				<div>vehicula vitae porta sed, lacinia in est.</div>
+				<p>Donec turpis lectus, vestibulum eget gravida in, tincidunt non est.</p>
+			</div>
+		</li>
+		<li >
+			<div>
+				<h2>Nam vel magna in mi laoreet mattis sit amet at ante. </h2>
+				<div>uspendisse euismod massa ut massa dignissim vel pellentesque sem faucibus. </div>
+				<p>Integer aliquet mi rutrum libero sodales posuere. </p>
+			</div>
+		</li>
+	</ul>
+</div>
+</body>
+</html>
